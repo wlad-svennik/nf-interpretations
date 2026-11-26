@@ -374,10 +374,11 @@
     {
       "path": "Host.lean",
       "input_sha256": "604856d3f90367d30c9e35b54820d7b406b4f94c11c6d70bfc8df1842b8efd7c",
-      "output_sha256": "2de241bb868300399b495d14dad0f144795ab416765677385ccfb7823279bc45",
+      "output_sha256": "3c6fe5a5f00282887305f8f7f04406103ca14ffd36f65a1e3c5b4147261f1c09",
       "module_migration": true,
       "input_lines": 8639,
-      "output_lines": 8643
+      "output_lines": 8647,
+      "module_meta_change": "HostReify tactic helpers placed in a scoped meta section, required by the module system; mathematical declarations unchanged."
     },
     {
       "path": "HostArith.lean",

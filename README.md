@@ -7,7 +7,8 @@ Palomar Registry. The source is the `standalone/` project in the author-supplied
 The development contains 149 original Lean modules on New Foundations, NFU with
 Infinity, the Axiom of Counting, and related interpretations. The uploaded source
 uses Lean 4.35.0. Its mathematical definitions and proofs are retained; the
-packaging adds Lean module headers, public imports, and exposed public sections
+packaging adds Lean module headers, public imports, a scoped meta section for
+the `hdef` tactic implementation, and exposed public sections
 where required by Palomar. The original-to-packaged file hashes are recorded in
 [`provenance/source-files.json`](provenance/source-files.json).
 

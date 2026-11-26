@@ -32,7 +32,7 @@ def termIndex {n : ℕ} : Semiterm ℒₛₑₜ Empty n → ℕ
 
 theorem termIndex_val {N : Type} [Tarski.Structure ℒₛₑₜ N] {n : ℕ}
     (t : Semiterm ℒₛₑₜ Empty n) (e : Fin n → N) :
-    (List.ofFn e)[termIndex t]? = some (t.val e Empty.elim) := by
+    getElem? (List.ofFn e) (termIndex t) = some (t.val e Empty.elim) := by
   match t with
   | #x => simp [termIndex]
   | &x => exact isEmptyElim x
@@ -110,7 +110,8 @@ theorem eval_toTFm {n : ℕ} (φ : Semisentence ℒₛₑₜ n) :
   | hor φ ψ ihφ ihψ =>
     intro e
     simp only [toTFm, TFm.Sat, ihφ, ihψ]
-    simp <;> tauto
+    simp
+    tauto
   | hall φ ih =>
     intro e
     simp only [toTFm, TFm.Sat, Semiformula.eval_all]

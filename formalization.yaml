@@ -102,7 +102,9 @@ automation:
 fidelity:
   divergences: >-
     The source definitions and mathematical proofs are retained. Module headers,
-    public imports, and exposed public sections are packaging changes. The
+    public imports, exposed public sections, and a scoped meta section for the hdef
+    tactic implementation are packaging changes. The Jensen model aggregate
+    Mathlib import is narrowed to the necessary imported library closure. The
     statement layer uses explicit first-order model semantics so that the
     Challenge can be read without importing the project or Foundation. The exact
     statement correspondence is documented alongside the compared declarations.

@@ -477,6 +477,8 @@ end elim
 
 namespace HostReify
 
+meta section
+
 open Lean Meta Elab Tactic
 
 structure St where
@@ -777,6 +779,8 @@ elab "hdef" : tactic => withMainContext do
       #[H, P, l, hl, φ, ρ, mkNatLit 997, mkNatLit 998, mkNatLit 999, ne1, ne2, ne3]
     replaceMainGoal (← g.apply pf)
     closeIff 3 P' P'' st.flats
+
+end
 
 end HostReify
 
