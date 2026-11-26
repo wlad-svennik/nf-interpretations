@@ -4,7 +4,10 @@ project:
   name: "NF and NF + AxCount: interpretations in Lean"
   description: >-
     A Lean formalization of New Foundations, NFU with Infinity, and their
-    extensions by the Axiom of Counting. This repository contains the substantive
+    extensions by the Axiom of Counting. The checked results establish the
+    existence of a set-sized model of NF, uniform mutual interpretability of
+    NF and NFU with Infinity, and interpretations in both directions between
+    NF + AxCount and NFU + Infinity + AxCount. This repository contains the substantive
     nf-interp proof development and an independent Palomar statement layer.
   authors:
     - "R. Gutin"
