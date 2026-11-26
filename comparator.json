@@ -1,0 +1,22 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NFUCut.nf_nfu_inf_mutually_interpretable",
+    "Palomar.exists_nf_model",
+    "NFUCut.Model.exists_emp",
+    "NFUCut.Model.exists_sing",
+    "NFUCut.Model.exists_adj",
+    "NFUCut.Model.exists_succ",
+    "NFUCut.Model.exists_nat",
+    "NFUCut.Model.exists_univ",
+    "Palomar.nfuic_interprets_nfc",
+    "Palomar.nfc_interprets_nfuic"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

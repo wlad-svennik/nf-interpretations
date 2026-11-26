@@ -1,0 +1,176 @@
+version: "v0.4"
+
+project:
+  name: "NF and NF + AxCount: interpretations in Lean"
+  description: >-
+    A Lean formalization of New Foundations, NFU with Infinity, and their
+    extensions by the Axiom of Counting. This repository contains the substantive
+    nf-interp proof development and an independent Palomar statement layer.
+  authors:
+    - "R. Gutin"
+  responsible_maintainers:
+    - "R. Gutin"
+  license: "MIT"
+
+classification:
+  arxiv: ["math.LO"]
+  msc2020: ["03E70", "03F25", "03B35"]
+
+sources:
+  - title: >-
+      New Foundations, NFU, Mac Lane set theory and the Axiom of Counting:
+      Interpretations checked in Lean: the proofs on paper
+    type: "manuscript"
+    relationship: "formalizes"
+    id: "urn:sha256:ba8c3ce7f93dba1b665e5b50e1c28e5d30e50d50cfb0df79172196b9135fd1c2"
+    location: "nf-interp(1).zip, nf-interp/paper.pdf, dated 25 November 2026"
+    note: >-
+      The companion manuscript and the standalone Lean sources were supplied
+      together by the responsible maintainer. The archive hash identifies that
+      source bundle. Per-file source provenance is recorded in
+      provenance/source-files.json. The source title page does not provide an
+      author byline, so no bibliographic byline has been inferred here.
+
+related_formalizations:
+  - id: "https://github.com/FormalizedFormalLogic/Foundation/tree/fbcfee52cb4a892087fa978366282a9ebd844f29"
+    relationship: "builds-on"
+    note: >-
+      Pinned external first-order logic and set-theory library used by the proof
+      development. The Challenge does not import Foundation.
+  - id: "https://github.com/leanprover-community/mathlib4/tree/56a005855ea17e0b0958f73ec801ae140b0a1679"
+    relationship: "builds-on"
+    note: "Canonical Mathlib revision for Lean 4.35.0."
+
+status:
+  scope: >-
+    The repository preserves all 149 original standalone Lean modules. The
+    Primary comparison targets are the uniform mutual interpretability of NF
+    and NFU+Infinity, existence of an NF model, a uniform parameter-free
+    interpretation of NF+AxCount in NFU+Infinity+AxCount, and the identity
+    interpretation in the reverse direction. Six elementary NFU witness lemmas
+    used in the definition of Infinity are also checked. The Palomar claim is
+    limited to these independent Challenge declarations and their transitive
+    definitions and proof dependencies.
+    The larger archive's other results are not silently promoted to separate
+    registry claims. Deliberate Challenge proof placeholders are excluded from
+    the proof-development sorry count.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - declaration: "NFUCut.nf_nfu_inf_mutually_interpretable"
+      file: "MutualInterpretability.lean"
+      comparator_config: "comparator.json"
+      sorry_count: 0
+    - declaration: "Palomar.exists_nf_model"
+      file: "Palomar/NFModel.lean"
+      comparator_config: "comparator.json"
+      sorry_count: 0
+    - declaration: "Palomar.nfuic_interprets_nfc"
+      file: "Palomar/AxCount.lean"
+      comparator_config: "comparator.json"
+      sorry_count: 0
+    - declaration: "Palomar.nfc_interprets_nfuic"
+      file: "Palomar/AxCount.lean"
+      comparator_config: "comparator.json"
+      sorry_count: 0
+
+automation:
+  methods:
+    - method: "agent"
+      framework: "ChatGPT"
+      tool_setup: >-
+        Agent-assisted source inspection, module/public-interface migration,
+        independent Challenge drafting, semantic statement adapters, dependency
+        pinning, and execution of the Lean and Palomar verification tools.
+      prompting_notes: >-
+        The responsible maintainer requested submission of the uploaded NF and
+        NF+AxCount Lean verification. The packaging preserves the supplied proofs
+        and makes the selected mathematical statements independently readable.
+    - method: "other"
+      tool_setup: >-
+        The supplied archive includes code-generation scripts and historical
+        Lean/leanchecker/NanoDa reports. A complete historical record of the
+        source development's prompts, model versions, and manual interventions
+        was not supplied, and is not reconstructed by this submission.
+  spend_usd: "not tracked"
+  notes: >-
+    R. Gutin is the responsible human maintainer. Automated assistance is recorded
+    here rather than as human authorship. Historical verification reports in the
+    uploaded archive are distinct from fresh verification of this repository.
+
+fidelity:
+  divergences: >-
+    The source definitions and mathematical proofs are retained. Module headers,
+    public imports, and exposed public sections are packaging changes. The
+    statement layer uses explicit first-order model semantics so that the
+    Challenge can be read without importing the project or Foundation. The exact
+    statement correspondence is documented alongside the compared declarations.
+
+review:
+  status: "agent-reviewed; mechanical verification pending"
+  notes: >-
+    Agents checked source provenance, the definition closure, module/file limits,
+    and the correspondence of the selected statements to the supplied source.
+    This does not assert independent human mathematical peer review. Fresh
+    compilation and the complete Palomar mechanical preflight are required for
+    the final submitted commit.
+
+alignment:
+  namespace: "ConNF.NF; NFUCut; JensenNFU; Palomar"
+  statements:
+    - source: "Uploaded MutualInterpretability.lean, nf_nfu_inf_mutually_interpretable"
+      lean: "NFUCut.nf_nfu_inf_mutually_interpretable"
+      module: "MutualInterpretability"
+      status: "unchanged mathematical statement"
+      note: >-
+        A fixed definable quotient gives NF uniformly in every NFU+Infinity
+        model. The reverse direction keeps membership unchanged and declares
+        every object a set. There is no assumed model-construction hypothesis.
+    - source: "Uploaded NFUJensenModel.lean, NFUConsistent.lean, NFInterpretations.lean"
+      lean: "Palomar.exists_nf_model"
+      module: "Palomar.NFModel"
+      status: "semantic adapter"
+      note: >-
+        The archive's proved Jensen NFU+Infinity model is converted to the
+        sethood presentation and then to the interpreted NF model. The conclusion
+        asserts an actual model of the explicit NF axiom scheme.
+    - source: "Uploaded NFUCountInterp.lean, SetTheory.nfc_sem"
+      lean: "Palomar.nfuic_interprets_nfc"
+      module: "Palomar.AxCount"
+      status: "semantic adapter"
+      note: >-
+        The fixed domain and membership formulas are translated from Foundation
+        syntax to the explicit TFm grammar. A proved satisfaction equivalence
+        preserves their meaning. The conclusion retains nonemptiness, full NF
+        comprehension, Counting, domain definability, injectivity, and the
+        membership interpretation uniformly over all source models.
+    - source: "Uploaded NFInterpretations.lean, nf_provable_universeInfinite"
+      lean: "Palomar.nfc_interprets_nfuic"
+      module: "Palomar.AxCount"
+      status: "semantic adapter"
+      note: >-
+        NF extensionality implies weak NFU extensionality; the formula grammars
+        have the same stratification and satisfaction. Specker's proved NF
+        Infinity theorem supplies Infinity, and Counting is unchanged.
+    - source: "Uploaded ConNF/NF/NFUCut.lean, Model witness lemmas"
+      lean:
+        - "NFUCut.Model.exists_emp"
+        - "NFUCut.Model.exists_sing"
+        - "NFUCut.Model.exists_adj"
+        - "NFUCut.Model.exists_succ"
+        - "NFUCut.Model.exists_nat"
+        - "NFUCut.Model.exists_univ"
+      module: "ConNF.NF.NFUCut"
+      status: "unchanged mathematical statements"
+      note: >-
+        These lemmas establish the empty set, singletons, adjunction, successor,
+        natural cardinals, and universal set in nonempty NFU models. Their full
+        types are compared and their original proofs are checked. The resulting
+        choice-defined objects are fixed definitions, not Comparator holes.
+
+acknowledgements: >-
+  The Lean, Mathlib, and Formalized Formal Logic communities. Existing source
+  comments and mathematical credits are retained. The separate Choice and
+  Consistency Strength in NF and NFU paper retains its joint credit to
+  R. Gutin and E. Glazer; this repository does not relicense that paper.

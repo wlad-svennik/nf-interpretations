@@ -1,0 +1,1199 @@
+{
+  "source_archive": "nf-interp(1).zip",
+  "source_archive_sha256": "ba8c3ce7f93dba1b665e5b50e1c28e5d30e50d50cfb0df79172196b9135fd1c2",
+  "source_subdirectory": "nf-interp/standalone",
+  "files": [
+    {
+      "path": "AlephTheory.lean",
+      "input_sha256": "4969126022cecdd5d135a87af7e3be8101a827d247340a39cf57e3cb46286d81",
+      "output_sha256": "d278da7ff30772fe164562934caef26c0421e8abcc8bf77447b5e45a4a0ce363",
+      "module_migration": true,
+      "input_lines": 149,
+      "output_lines": 153
+    },
+    {
+      "path": "ClassEx.lean",
+      "input_sha256": "5f29c362a10117ddc7a898691f97ed336e70160beeab49912916868a8588ddcd",
+      "output_sha256": "ff627b80bb78492cb2d6b461be3e793806e6f10b38998f3587e7102c3d5780c9",
+      "module_migration": true,
+      "input_lines": 345,
+      "output_lines": 349
+    },
+    {
+      "path": "ClassZ.lean",
+      "input_sha256": "2ec5d2897a1342512dcf2c105643e4f8b8ccce36128206acf37d0b5b8bb1a6f3",
+      "output_sha256": "a928ac35ba43d9165e6f6d7e3fd54924f27615cdad0ca0a1df361ca4ee5b4839",
+      "module_migration": true,
+      "input_lines": 629,
+      "output_lines": 633
+    },
+    {
+      "path": "ClassZSound.lean",
+      "input_sha256": "2c8b9c4bec4312a392989bba055a91848085497f9527daa3809a61731c8c189b",
+      "output_sha256": "23e67fa4612bb3fc1923c381ed53296f428d5f17740f8b4244bbdb27d6fa5fa4",
+      "module_migration": true,
+      "input_lines": 219,
+      "output_lines": 223
+    },
+    {
+      "path": "CombAll.lean",
+      "input_sha256": "30fbead2b8534039ef82dbf2f834a242d6f9ab86d937d83dac270e0284f8bdb5",
+      "output_sha256": "9f5ecbea993c4f57f5eccb5206c3647b70d2febd90685dd0d2cd064361f25c79",
+      "module_migration": true,
+      "input_lines": 81,
+      "output_lines": 85
+    },
+    {
+      "path": "CombFn.lean",
+      "input_sha256": "ee1a73ad957d874b04ffcbe76edeb4ea69b5f46df36d52e7ec75812dc49e1154",
+      "output_sha256": "43f1698100d6dfd189039d94186ee3fe424222c77375a01dae1c3c1e600a9ac7",
+      "module_migration": true,
+      "input_lines": 457,
+      "output_lines": 461
+    },
+    {
+      "path": "CombTheory.lean",
+      "input_sha256": "d1a8f784ec34a3ba83e25c5f3bbfb73c625fc0006bc927f869bcd03ade440141",
+      "output_sha256": "f4ed4523f027c9674967361fbc1ecc19a1666e77770e763270603d53fd3b6c0c",
+      "module_migration": true,
+      "input_lines": 319,
+      "output_lines": 323
+    },
+    {
+      "path": "ConNF/NF/Generic.lean",
+      "input_sha256": "e9c6f99a7bacbafade766db20bb830fefd32568521d2f853e2316fc1d3b95728",
+      "output_sha256": "e9c6f99a7bacbafade766db20bb830fefd32568521d2f853e2316fc1d3b95728",
+      "module_migration": false,
+      "input_lines": 384,
+      "output_lines": 384
+    },
+    {
+      "path": "ConNF/NF/Hailperin.lean",
+      "input_sha256": "9fd75fc15ef0b9c880c80ee117aec13011587ec95a235fd602722e876d569b51",
+      "output_sha256": "9fd75fc15ef0b9c880c80ee117aec13011587ec95a235fd602722e876d569b51",
+      "module_migration": false,
+      "input_lines": 914,
+      "output_lines": 914
+    },
+    {
+      "path": "ConNF/NF/NFModel.lean",
+      "input_sha256": "6f92d9f7334dbe21e1f33cb2c816d8edce78d6ef4421616169a6435bf8333296",
+      "output_sha256": "6f92d9f7334dbe21e1f33cb2c816d8edce78d6ef4421616169a6435bf8333296",
+      "module_migration": false,
+      "input_lines": 106,
+      "output_lines": 106
+    },
+    {
+      "path": "ConNF/NF/NFUArith.lean",
+      "input_sha256": "9036d4fe152c00e4ee85323f6e970f70030fe33d30a9a22706b6854c21078b39",
+      "output_sha256": "9036d4fe152c00e4ee85323f6e970f70030fe33d30a9a22706b6854c21078b39",
+      "module_migration": false,
+      "input_lines": 1987,
+      "output_lines": 1987
+    },
+    {
+      "path": "ConNF/NF/NFUConstr.lean",
+      "input_sha256": "31b83b7acedae8f88300222e768d117d639fd91b7a34044979eb4e96c0705682",
+      "output_sha256": "31b83b7acedae8f88300222e768d117d639fd91b7a34044979eb4e96c0705682",
+      "module_migration": false,
+      "input_lines": 7705,
+      "output_lines": 7705
+    },
+    {
+      "path": "ConNF/NF/NFUCut.lean",
+      "input_sha256": "1028f32b216c09799b3e095cb2cc3bb7d38a70be6c923edb9f7fc139be5b0960",
+      "output_sha256": "1028f32b216c09799b3e095cb2cc3bb7d38a70be6c923edb9f7fc139be5b0960",
+      "module_migration": false,
+      "input_lines": 1242,
+      "output_lines": 1242
+    },
+    {
+      "path": "ConNF/NF/NFUHartogs.lean",
+      "input_sha256": "0ff88279e0976d2510066a5877e28f410e13798e36d7acd1a6144bdb9ce057d1",
+      "output_sha256": "0ff88279e0976d2510066a5877e28f410e13798e36d7acd1a6144bdb9ce057d1",
+      "module_migration": false,
+      "input_lines": 8537,
+      "output_lines": 8537
+    },
+    {
+      "path": "ConNF/NF/NFULadder.lean",
+      "input_sha256": "f285431b49b9c49129ca60c2e6ad83785de4d3479421dbfa6ebf935af32e08b4",
+      "output_sha256": "f285431b49b9c49129ca60c2e6ad83785de4d3479421dbfa6ebf935af32e08b4",
+      "module_migration": false,
+      "input_lines": 1554,
+      "output_lines": 1554
+    },
+    {
+      "path": "ConNF/NF/NFUSat.lean",
+      "input_sha256": "b8dacc26587903a40edd4766c4134ffa3bfe1a42307d88352cd3086dc93d44b3",
+      "output_sha256": "b8dacc26587903a40edd4766c4134ffa3bfe1a42307d88352cd3086dc93d44b3",
+      "module_migration": false,
+      "input_lines": 1084,
+      "output_lines": 1084
+    },
+    {
+      "path": "ConNF/NF/NFUSound.lean",
+      "input_sha256": "b82a009d5dd7ae9ff36755684c954d0e6d0e084a85c3aef55e18cf4e9d17f6e0",
+      "output_sha256": "b82a009d5dd7ae9ff36755684c954d0e6d0e084a85c3aef55e18cf4e9d17f6e0",
+      "module_migration": false,
+      "input_lines": 1502,
+      "output_lines": 1502
+    },
+    {
+      "path": "CountAxioms.lean",
+      "input_sha256": "fecd914f06579ff8f164358220465ce011b3683942c1e55ed3b9ed76bc788213",
+      "output_sha256": "7cc6e1db4f45a5cb824a0b95e22ab1cd1b5b1d015bf43f1f604d8b6cb9ba2e18",
+      "module_migration": true,
+      "input_lines": 109,
+      "output_lines": 113
+    },
+    {
+      "path": "CountBridge.lean",
+      "input_sha256": "e76dd2f6017e5227f7793614543aa931e56341ca5c33317155f9c7d2eab6e645",
+      "output_sha256": "b2c8e9ebcd23fd6348a0446d2a6f207bbc183b8d9d1d4e8db6beb9899e20386b",
+      "module_migration": true,
+      "input_lines": 244,
+      "output_lines": 248
+    },
+    {
+      "path": "CountClauses.lean",
+      "input_sha256": "ba0d362e4b6e2ad0e01e64da61db11f5db2a0596dc87f577f5d10f19c3d59228",
+      "output_sha256": "0d60d7568bede6c2065bc3f5501cee7b913a432a952fac50db8638997568e140",
+      "module_migration": true,
+      "input_lines": 612,
+      "output_lines": 616
+    },
+    {
+      "path": "CountMap.lean",
+      "input_sha256": "37331e708795c64e5d2891589753bd19c309280a95e706630b77f5919af4c7b9",
+      "output_sha256": "8cf5ea27e9a4ad3877496617f68f9afdf5ed6195ef0cf7cf6d53399af0c515d6",
+      "module_migration": true,
+      "input_lines": 226,
+      "output_lines": 230
+    },
+    {
+      "path": "CountPull.lean",
+      "input_sha256": "4268f4be59f48d24ad80a84b05f000f020b3a47e0b00f3b57e11b0f4c746bfb5",
+      "output_sha256": "930049bb78e8b1fb2c16a72ecf77c48cb06b101fb8906a3ced18bdaa5edc1bd8",
+      "module_migration": true,
+      "input_lines": 256,
+      "output_lines": 260
+    },
+    {
+      "path": "CountSet.lean",
+      "input_sha256": "81bbc266ac0dcb8f1ee3c5660ee8d32cc5f582d467877842512be1b60b8c4bb2",
+      "output_sha256": "1b17b0c98bbca1d98d291382db3ebfc0c3c5d9e41a8a3c076395cc0763842f3c",
+      "module_migration": true,
+      "input_lines": 82,
+      "output_lines": 86
+    },
+    {
+      "path": "CountWitness.lean",
+      "input_sha256": "c20909287a8a83b90b7898ecbdc8e9f1342daa1b2832c37f54bb611af3ebfa4d",
+      "output_sha256": "a35ece4c6a38fef28486eafc5258da6ede8eb235bb400cc5ba46d24cc17847a7",
+      "module_migration": true,
+      "input_lines": 59,
+      "output_lines": 63
+    },
+    {
+      "path": "CutFml.lean",
+      "input_sha256": "13b56e322ec68b83fbbf02e2b1334d9ffd3d0611210971a388097b62198304fd",
+      "output_sha256": "d202f62dc0987c152f779e6afdf789b02193702aefb23fff551cb8571fa1af05",
+      "module_migration": true,
+      "input_lines": 470,
+      "output_lines": 474
+    },
+    {
+      "path": "CutTerm.lean",
+      "input_sha256": "8fdb75e161d46281dd73e2d7efa3d4e059e4a646b929dc334776547b828b2e03",
+      "output_sha256": "05ffa0116b22a11bf0bc2ebcd533d99ddd81974ee10715297398798d475a06c4",
+      "module_migration": true,
+      "input_lines": 883,
+      "output_lines": 887
+    },
+    {
+      "path": "CutTrans.lean",
+      "input_sha256": "c04bee5eac34b233c083daad6b20cbbaf90492700278ed9a9f9ba108f9817cee",
+      "output_sha256": "9eb12a49b61b69f7bc39ace93c961e33c1de5151baedfe4fd3e4b2a666ab47c8",
+      "module_migration": true,
+      "input_lines": 429,
+      "output_lines": 433
+    },
+    {
+      "path": "DedekindNaturals.lean",
+      "input_sha256": "390b63856d99f5ac7a03aa138dc96d2c05ed77819aef18c58d817dd758841c10",
+      "output_sha256": "0ae9512af6f60fcaa6e1eae484f6db59cc77771bfff21489619955f1b3011a4b",
+      "module_migration": true,
+      "input_lines": 35,
+      "output_lines": 39
+    },
+    {
+      "path": "FnBool.lean",
+      "input_sha256": "7beb6b3d7d44f728718d985b3e90ff6a0b946913c47fd2e9d005a0285171e8b3",
+      "output_sha256": "db0c557e397e2e1448704b45ab9565b94e5a252aea00359f550c7295ea4d35ec",
+      "module_migration": true,
+      "input_lines": 651,
+      "output_lines": 655
+    },
+    {
+      "path": "FnChurch.lean",
+      "input_sha256": "e7343d5e9f108ba346bed29ffa334c9bd73e1a5a59abfca5d8e8959a138e0ec1",
+      "output_sha256": "68a3c4d26acecd156399ca630f9027b5063140165d9818ab9b087993b9e7cd3d",
+      "module_migration": true,
+      "input_lines": 266,
+      "output_lines": 270
+    },
+    {
+      "path": "FnCount.lean",
+      "input_sha256": "515cdbde9f4bce3dc71f7b1a17989b8a06c49264bd9af1f96743b9e2872058b4",
+      "output_sha256": "7ef6cf1609b522abdaf59d3a9fd3372fae56b7bd219ebb4b798a89374010bd5e",
+      "module_migration": true,
+      "input_lines": 477,
+      "output_lines": 481
+    },
+    {
+      "path": "FnCountNFU.lean",
+      "input_sha256": "a4822bc1cd9a1fbdeabf1ed82700b01d08fd96a82b076491f3bb5aa012521471",
+      "output_sha256": "b952834ac9dab266938d6edfe4ac750d7744163b6231acb15b2801aa6e5fda52",
+      "module_migration": true,
+      "input_lines": 297,
+      "output_lines": 301
+    },
+    {
+      "path": "FnCountTransfer.lean",
+      "input_sha256": "6436fd5144b8b4692f1291ef07dd35b50b1e0c8f5f60558d8e61dec69aaf7bca",
+      "output_sha256": "5b9ae6ea2358d427e2ba56d15387a8e447ad1f9368546631b125fd6fe7a905fb",
+      "module_migration": true,
+      "input_lines": 203,
+      "output_lines": 207
+    },
+    {
+      "path": "FnInfinity.lean",
+      "input_sha256": "a14aff79cbaf7ddde3f206775d2bd88198eda581f162e66afc70244d1bc5bea3",
+      "output_sha256": "a63428020a9d061c9fd8a116c962d0204a0ae132712664d158fff8710b830da8",
+      "module_migration": true,
+      "input_lines": 679,
+      "output_lines": 683
+    },
+    {
+      "path": "FnInterpretsNFU.lean",
+      "input_sha256": "eabfc7977bdca3a5854497a0ecdf92214aa16623e05739dd48e507fa9eaecfad",
+      "output_sha256": "566a00a3810db21beb0779afd809c8c029838bf41b9f6a10c16aadcff833373e",
+      "module_migration": true,
+      "input_lines": 214,
+      "output_lines": 218
+    },
+    {
+      "path": "FnNF.lean",
+      "input_sha256": "2b7e23c8aab99678c22224d2bf7b225d8239f73d94f3e1d6cb08585479784f9a",
+      "output_sha256": "7cbb6e47b6f1659d028bf660cda1d11ff9dad6d170e3c8582ddd26939835fec8",
+      "module_migration": true,
+      "input_lines": 94,
+      "output_lines": 98
+    },
+    {
+      "path": "FnSets.lean",
+      "input_sha256": "5cb72999383f4f9c7d7c6a5a989a2fe09f9df7c7071a4b45532e228ad9b4710d",
+      "output_sha256": "853ea4a692f655918cfa4f65ee52dd455372441a17da9e6df48865d1a0d86653",
+      "module_migration": true,
+      "input_lines": 513,
+      "output_lines": 517
+    },
+    {
+      "path": "FnTheory.lean",
+      "input_sha256": "de3da661d932ca88ae475a61114e003bf0a2cef0f1d769bc83bb072c23e54b5c",
+      "output_sha256": "e007b73b210b319d73455de87b5d8ed9f409ef1b181ba125d131967f20e3a8f9",
+      "module_migration": true,
+      "input_lines": 377,
+      "output_lines": 381
+    },
+    {
+      "path": "FunctionCut.lean",
+      "input_sha256": "d806353e5ef6f26547e52010accd6a0a3a57955392a52549d7571454e708f9fa",
+      "output_sha256": "1ddec808429c6252af6fc1ac1a9c41fcb759a04d52384365f3ed3e791a633d7c",
+      "module_migration": true,
+      "input_lines": 111,
+      "output_lines": 115
+    },
+    {
+      "path": "HkCut.lean",
+      "input_sha256": "b235d1a5d2e3413d2f915b6280d9da59fe61433ca1b59dd1f92944fc94cd539c",
+      "output_sha256": "67c19ed3f7a8ce72ebb77e03c58e19b58ec0b70408edd2ad9128963e0f52baed",
+      "module_migration": true,
+      "input_lines": 286,
+      "output_lines": 290
+    },
+    {
+      "path": "HkHolds.lean",
+      "input_sha256": "f0f46611f255ec533b63f385ff23811e9b37a2507daad488c9975f48be8cf38e",
+      "output_sha256": "4640633b6d69a1461187c70400fbf19fd67a4c9de5195ef8392b39d1efb40845",
+      "module_migration": true,
+      "input_lines": 406,
+      "output_lines": 410
+    },
+    {
+      "path": "HkModel.lean",
+      "input_sha256": "9f07251d23e4cbd80fe9ec0727b1c9bc8f64e516208ac85d1f5a58ca333a01b0",
+      "output_sha256": "4531355f65e65140ecac0febd6e7c534d604262421125942f3c5db711d3500a4",
+      "module_migration": true,
+      "input_lines": 265,
+      "output_lines": 269
+    },
+    {
+      "path": "HkPair.lean",
+      "input_sha256": "93ef844958ad3e3d661bbd221ec78b9871a270572383641322ba4a5c847e43ff",
+      "output_sha256": "a5ce8d59ab4241f4f16332e311c2f735b0954447dfbdfd3f7adf0616e3663b42",
+      "module_migration": true,
+      "input_lines": 238,
+      "output_lines": 242
+    },
+    {
+      "path": "HkRel.lean",
+      "input_sha256": "507f2dbe12d1bcff4a378736fe2a68b8650612e5c2d9ea7fdc37940a733c5b30",
+      "output_sha256": "59909d8a660d5c7c0ea80bb9cccef9a634e37a3f4878647b39f7ec0b91ec8141",
+      "module_migration": true,
+      "input_lines": 270,
+      "output_lines": 274
+    },
+    {
+      "path": "HkSound.lean",
+      "input_sha256": "9e6a3595701ee90d20ffdc87bdb6a6607c1099b59a3b2df9437d83d1b8e22dd7",
+      "output_sha256": "acfa2513b46d8658369d581db7794054e06848e4a2849a3cee84c745d05b307a",
+      "module_migration": true,
+      "input_lines": 811,
+      "output_lines": 815
+    },
+    {
+      "path": "HkTree.lean",
+      "input_sha256": "ca3ed14cbb713ec1f109cc2943de2f4a8cf39750c328a0189ab98031e4f233b2",
+      "output_sha256": "571e2c3c81d3d665f21745a4e01e510115aff2bbd167deef03f44c7523354a90",
+      "module_migration": true,
+      "input_lines": 292,
+      "output_lines": 296
+    },
+    {
+      "path": "Host.lean",
+      "input_sha256": "604856d3f90367d30c9e35b54820d7b406b4f94c11c6d70bfc8df1842b8efd7c",
+      "output_sha256": "2de241bb868300399b495d14dad0f144795ab416765677385ccfb7823279bc45",
+      "module_migration": true,
+      "input_lines": 8639,
+      "output_lines": 8643
+    },
+    {
+      "path": "HostArith.lean",
+      "input_sha256": "952e362996097c8329a5a665e26e4ff3f35e5d491389095a4720996e716fb3e4",
+      "output_sha256": "8aa28687c62c3c12b8503f29c7de58482d8359167e12860b26fc2ec5b719bb19",
+      "module_migration": true,
+      "input_lines": 622,
+      "output_lines": 626
+    },
+    {
+      "path": "HostCount.lean",
+      "input_sha256": "93cd0585a6fa1eda176040f48da414bf02accad6b036e5761a4c799bb6a2ef69",
+      "output_sha256": "812c1e9a91916ea223debc82051db10660f6f1a3433260d7caa903fd7ffe17b5",
+      "module_migration": true,
+      "input_lines": 484,
+      "output_lines": 488
+    },
+    {
+      "path": "HostCountI.lean",
+      "input_sha256": "97288fc7f18f66bb14825aa60edc31fb8646117fa8116226bd5f9c75e9c40e9c",
+      "output_sha256": "f4f1380ede2d7ac4bcf3947113c6b007b825e2af0296671243362e9cc59fffaf",
+      "module_migration": true,
+      "input_lines": 51,
+      "output_lines": 55
+    },
+    {
+      "path": "HostCountSound.lean",
+      "input_sha256": "4af9ffeed2ecd8cd227aab5db8ba34bd9c69b089ff96a7b7a39f56b52255941e",
+      "output_sha256": "0f15d8ec4d3a0e9514df4a598179698a31a5a83d987244708243f5706d80fcc5",
+      "module_migration": true,
+      "input_lines": 302,
+      "output_lines": 306
+    },
+    {
+      "path": "HostDD.lean",
+      "input_sha256": "bf37c27678e382125877ddf1bdad340b7d9e05ee866ae9a19622f3a9449c72d4",
+      "output_sha256": "32dfd665abe60dbabee07b0132b2ff9d1ddde515a2185bed2d1055ba18acdcb0",
+      "module_migration": true,
+      "input_lines": 239,
+      "output_lines": 243
+    },
+    {
+      "path": "HostER.lean",
+      "input_sha256": "be391741781c174ee8df6ed7f7799483dd07c94b1233d6b498d465f04fa018f1",
+      "output_sha256": "ddb30d54ac4ff1ca067501e3e72441b5aadd3ca7429cf45bfaa5ceec82630838",
+      "module_migration": true,
+      "input_lines": 1054,
+      "output_lines": 1058
+    },
+    {
+      "path": "HostERI.lean",
+      "input_sha256": "c7cff377270303f1560834ad59ac0e9fbea723f4dbaa33238041ce3911bd7c2b",
+      "output_sha256": "a6bd9c0f76b9a4236e95b1d8ec9b6121ac5de40e0b3a929db61e7819d007fade",
+      "module_migration": true,
+      "input_lines": 123,
+      "output_lines": 127
+    },
+    {
+      "path": "HostTerm.lean",
+      "input_sha256": "8d6cd78c53808f1801c0e7325c798069c0e232a440c19124520f383c1b3cf4f9",
+      "output_sha256": "619027268e0a76b79d50e8049f72c555232dbfaed8431b1ac8bb75c727cb34df",
+      "module_migration": true,
+      "input_lines": 4484,
+      "output_lines": 4488
+    },
+    {
+      "path": "JensenGeneric.lean",
+      "input_sha256": "d0bd0a51aa3b08b2a35155e541dd6b0a6b87c1d260fcf2427714086f5811ea15",
+      "output_sha256": "1c9734056aea92084bc483d1122a390bedc687799fed6a975704549aa4ed15a0",
+      "module_migration": true,
+      "input_lines": 560,
+      "output_lines": 564
+    },
+    {
+      "path": "MDefs.lean",
+      "input_sha256": "f8b93b607911a1522361293cbac0055a8a3d84cadc2d50db321807373eff6026",
+      "output_sha256": "87b9fa0aa6e6cebbc6e2e5da3d3ee304d6b2d9641d53e41c0fdac99899ff4887",
+      "module_migration": true,
+      "input_lines": 253,
+      "output_lines": 257
+    },
+    {
+      "path": "MGraph.lean",
+      "input_sha256": "b2f7acdac5efc36f4563d3338be8d7444d804df95b026ffa634adb33da581e6d",
+      "output_sha256": "559f8f46f1e3f96682edf5dd7bbd933fe04c6b001ac652218f087938d6151924",
+      "module_migration": true,
+      "input_lines": 400,
+      "output_lines": 404
+    },
+    {
+      "path": "MGraphH.lean",
+      "input_sha256": "b38ffc8d3eb30ecbfe55ecf6d39f6a880349acd34c43dde641f40434c4625348",
+      "output_sha256": "867f6e47476f27b8c747e62942d164aaa3173821678d38a6147fb1b882e94d32",
+      "module_migration": true,
+      "input_lines": 488,
+      "output_lines": 492
+    },
+    {
+      "path": "MGraphOps.lean",
+      "input_sha256": "1cadab91223a0f9f283dbfbcb5cc4c024b8b9001a0bc446c0a537c3a93504958",
+      "output_sha256": "4513772f0cce1e185f9dee20c15c51ae4f5323c9c5e251da4a45b52f4e190b5f",
+      "module_migration": true,
+      "input_lines": 502,
+      "output_lines": 506
+    },
+    {
+      "path": "MGraphRank.lean",
+      "input_sha256": "6474a5d1aee06fcbf053252e24b63020e4a7c9958b11ddc06001a9def94b6cd6",
+      "output_sha256": "53ee828fa0ebf89490ea9c0bee79017a23dcb521777694ded5037fd54d18772d",
+      "module_migration": true,
+      "input_lines": 582,
+      "output_lines": 586
+    },
+    {
+      "path": "MGraphSep.lean",
+      "input_sha256": "924634e0f162ed0d1430f46773dcce3746c7a5275478ae59539cd1fe9a3447af",
+      "output_sha256": "96c940e5b85dba8b095e02d44abe9a0968b3c05726ff94efcdeb47ea6d048191",
+      "module_migration": true,
+      "input_lines": 326,
+      "output_lines": 330
+    },
+    {
+      "path": "MHAleph.lean",
+      "input_sha256": "9fa6e146c2280d43965a1486f0cc107a3cef3c577a45de3a4e85972e0e84e7f9",
+      "output_sha256": "318729f49760b04ff4b52c2922bcc0f8b13374e934c1d5f4d25594a790fe5be0",
+      "module_migration": true,
+      "input_lines": 853,
+      "output_lines": 857
+    },
+    {
+      "path": "MHArith.lean",
+      "input_sha256": "ef112153fd92a646fe5382eea85dde3333c93473ee27df1f02cfc1042c0aa482",
+      "output_sha256": "f502bc09161bff7f61d2fa0f37f89eb602898cc0f0261e92c676d80525dc6627",
+      "module_migration": true,
+      "input_lines": 425,
+      "output_lines": 429
+    },
+    {
+      "path": "MHBase.lean",
+      "input_sha256": "519b4c6f511438408c4572ce2c19f7ec097c5060fef13c3e405617368e12a409",
+      "output_sha256": "34d77165a453c269342bdeb78b21b11e8c31e78bfacd850ba79494e6e65d9053",
+      "module_migration": true,
+      "input_lines": 339,
+      "output_lines": 343
+    },
+    {
+      "path": "MHBasics.lean",
+      "input_sha256": "2263a8165a478739e9c105a8385bbe604c0d371b2c8f9c370758d2f1dfa822fe",
+      "output_sha256": "77bbfc474c46e2823d23fa5cfb1332615cf7759883ea10968270fa16ccfc1cf2",
+      "module_migration": true,
+      "input_lines": 363,
+      "output_lines": 367
+    },
+    {
+      "path": "MHCard.lean",
+      "input_sha256": "909a3afc481d0f098805ebbd9661ee8ceceba4e75727b974da992dbe581ba401",
+      "output_sha256": "784b15d551b257539772b6787c81f505d18c08dc4de73bfacc46afc90aa3aaa5",
+      "module_migration": true,
+      "input_lines": 707,
+      "output_lines": 711
+    },
+    {
+      "path": "MHClos.lean",
+      "input_sha256": "ab9b22ff750b3b76f4f81eb456749c36f6edbe357b58e1fad7f1d046b1d5da89",
+      "output_sha256": "f4a4095963bf7b8308f0a1337e57eca25b1dd6a261039ca94a2f56dff8ef445e",
+      "module_migration": true,
+      "input_lines": 282,
+      "output_lines": 286
+    },
+    {
+      "path": "MHCodes.lean",
+      "input_sha256": "cb2b180009ba3696aeebb201e3a13471cca82323c4366dd5f1e5a3efb6c0dd75",
+      "output_sha256": "afaac83e96f74a05a6d6446d88ba65b8b51e0693de3c742ba99fbf4a02322059",
+      "module_migration": true,
+      "input_lines": 396,
+      "output_lines": 400
+    },
+    {
+      "path": "MHCond.lean",
+      "input_sha256": "955fe2127a1261602e59b3150e1c31d2b447568098d0572ac633acce75c99809",
+      "output_sha256": "03531a3cea0a96b5ff847041ad08f8366933890c4583988fb80da54c831dee43",
+      "module_migration": true,
+      "input_lines": 1389,
+      "output_lines": 1393
+    },
+    {
+      "path": "MHCountSound.lean",
+      "input_sha256": "54e80710b0d87154b9167f9ffaf114f7f76fe47e5f80f6ae6c36c2eba028ccea",
+      "output_sha256": "e8ee792d3c974040f081eeef4781ab23b78fefb7539c05086275fd0c65c68865",
+      "module_migration": true,
+      "input_lines": 103,
+      "output_lines": 107
+    },
+    {
+      "path": "MHER.lean",
+      "input_sha256": "18d5326b06b9c46693fad1d9cbf9e71359f333c2d08332ea0571c06ed58d8d71",
+      "output_sha256": "1c21bb0adc900edbf3e98dfee5f8aa47fcde765ab23b708e56dce14533f0c90b",
+      "module_migration": true,
+      "input_lines": 329,
+      "output_lines": 333
+    },
+    {
+      "path": "MHEnum.lean",
+      "input_sha256": "a41c886b9c5a3d6daf943b24560fd9ff3a82d33551982f29c39467cc924e49f9",
+      "output_sha256": "19479842dc21a9895cde433f9178d01fd29befd60c87857cd1cf602155f3b501",
+      "module_migration": true,
+      "input_lines": 462,
+      "output_lines": 466
+    },
+    {
+      "path": "MHExist.lean",
+      "input_sha256": "916566dd7c341589cf44f3b58dfe5971b33e07488eba5f86accadcbae9025e08",
+      "output_sha256": "2a15e754594b1ff019b9b545ddf43205dbbae683061f5c1bb20cc6297a9fba71",
+      "module_migration": true,
+      "input_lines": 642,
+      "output_lines": 646
+    },
+    {
+      "path": "MHFull.lean",
+      "input_sha256": "f45975173c84707bc57cc539ee7985d782a9f516aad1395095ea8820438bf1d6",
+      "output_sha256": "54e0030092ce9e8fb0e19981c1b9256902a6f347827cfa2dc454c61824a7b55b",
+      "module_migration": true,
+      "input_lines": 310,
+      "output_lines": 314
+    },
+    {
+      "path": "MHHartogs.lean",
+      "input_sha256": "ee68d3b938f0101dac26a4550fc66739b5f2f5f5e685bd522cdcda54a6e40ab4",
+      "output_sha256": "b2ca392f406f0d564f7f82817670f186f575b032459ef6a6625f9fe7c7476e68",
+      "module_migration": true,
+      "input_lines": 238,
+      "output_lines": 242
+    },
+    {
+      "path": "MHHgt.lean",
+      "input_sha256": "b302a3651f1ed8a7969eb7489558e720ccf0fd04d0a9207ea40bacd36079cacb",
+      "output_sha256": "14edcdca7c3a738a47bff012d3ff6dd05f40be104fea07b6f4c2438887be1e2d",
+      "module_migration": true,
+      "input_lines": 395,
+      "output_lines": 399
+    },
+    {
+      "path": "MHHier.lean",
+      "input_sha256": "a5ecab2474ab8048c1ca9db8da2e0b5eab669031f6f47239c43b309fb2f376c9",
+      "output_sha256": "ed0bf60ce9fa494ded08b115ad0e419b544d7746c1ae10ce5567fe98ba7b906b",
+      "module_migration": true,
+      "input_lines": 305,
+      "output_lines": 309
+    },
+    {
+      "path": "MHHost.lean",
+      "input_sha256": "ebc12222d15295ec9f046d9dbb1c16bce350263b812539d23235df6a2255abbe",
+      "output_sha256": "7e10b685df9e6edbdbd5aa092f3b915b8db581c7f39a67a645bc7e756aa24d51",
+      "module_migration": true,
+      "input_lines": 826,
+      "output_lines": 830
+    },
+    {
+      "path": "MHHull.lean",
+      "input_sha256": "7167538f119f78de587404eb98a9bfa8b5aec60e51153a85a1b175b195be5e6f",
+      "output_sha256": "e87596d584c395443c9d3b7fa1fdedb2e856db914e69a383fd5b62874fcc20f6",
+      "module_migration": true,
+      "input_lines": 437,
+      "output_lines": 441
+    },
+    {
+      "path": "MHInternal.lean",
+      "input_sha256": "364cf5b2e87bd1fd7548ac09eacfc51724b404fe5406d22b885b53847526bf8e",
+      "output_sha256": "dba3ba1150d407f2571690f260a76581fc42bb83278eb588a35a3d24c2edeb54",
+      "module_migration": true,
+      "input_lines": 743,
+      "output_lines": 747
+    },
+    {
+      "path": "MHInterpretsMAC.lean",
+      "input_sha256": "0f4d91508248598e69720dd49042a0d5a7691204abf41c0159cf4e9d98c9181a",
+      "output_sha256": "4a1885b991cab3506cc9850dff950e5aa39134a675eedcbed724eca14fe0c368",
+      "module_migration": true,
+      "input_lines": 532,
+      "output_lines": 536
+    },
+    {
+      "path": "MHIso.lean",
+      "input_sha256": "253ad5366a983349f95e46f84b60a2f0a577ae131f1484e2a4d36705a68a9ef2",
+      "output_sha256": "c0d00904dca50dadf708d99e3f96685f3df7d7b68bb108580c3973efbc41331c",
+      "module_migration": true,
+      "input_lines": 378,
+      "output_lines": 382
+    },
+    {
+      "path": "MHLRank.lean",
+      "input_sha256": "403a6b49d137be704da4cf4cf2912deabbc0fe05ba20b5cd9a1eb11051b4f2f4",
+      "output_sha256": "adb09a466d7c4f4b90a0a0dad517d0a8f36e88967bf82cecc801fbb18d803ff4",
+      "module_migration": true,
+      "input_lines": 587,
+      "output_lines": 591
+    },
+    {
+      "path": "MHLadder.lean",
+      "input_sha256": "0f88a7b9ba040455678740b740f6b2c39093cad956a2c19f1baf21ef9fbcd8aa",
+      "output_sha256": "e217e5d8f8b5468c5a0d77a505220611259f67890b593fd2d97eb83f5643f696",
+      "module_migration": true,
+      "input_lines": 134,
+      "output_lines": 138
+    },
+    {
+      "path": "MHLevels.lean",
+      "input_sha256": "b09a031936875fb186b8c040a37b08c7294cbaf113ffd6bb6d1b83d8814a1bc4",
+      "output_sha256": "2126b2ccad684410068942d2205333a985ab56a34e10985b07f2e9221fe01632",
+      "module_migration": true,
+      "input_lines": 410,
+      "output_lines": 414
+    },
+    {
+      "path": "MHOrder.lean",
+      "input_sha256": "5f4822fbafaf41d354c0b1831f027e2319b2a14dbd16139472b88c313d116a6e",
+      "output_sha256": "52c492c69db5f4745622b9abb9f731379c05e712fa4714a3ce3bec0610c99160",
+      "module_migration": true,
+      "input_lines": 459,
+      "output_lines": 463
+    },
+    {
+      "path": "MHPow.lean",
+      "input_sha256": "94ec28b99d593d915d0b49877d2eed17e423ce5939d206c27186dd7cb9adea7d",
+      "output_sha256": "79f8db6e2ccd8ddf327776059d792ce5de3bde47d7f9208e1e747d0ba33b96b4",
+      "module_migration": true,
+      "input_lines": 345,
+      "output_lines": 349
+    },
+    {
+      "path": "MHRInterpretsZCR.lean",
+      "input_sha256": "7bae8c98f308ee1667a5f0e20c8c7de5669b673d8a3dc0869ab32348d7901305",
+      "output_sha256": "1ae4ce0debfd5e11585ad54a80348757f2fde30df2176c0c4286d9a29cbb092a",
+      "module_migration": true,
+      "input_lines": 400,
+      "output_lines": 404
+    },
+    {
+      "path": "MHRank.lean",
+      "input_sha256": "aa8ff8535353e91763f8aa619254f7581b271ca80adbae48956a67d4d36c4d50",
+      "output_sha256": "6948bf55bd6455b690dd1775cb62806412f85a99d1f67f8e87011b264cd0a482",
+      "module_migration": true,
+      "input_lines": 688,
+      "output_lines": 692
+    },
+    {
+      "path": "MHRankSupply.lean",
+      "input_sha256": "ebe8bdb4af33402c495bb5b422c05d87a6ebd1961a68e90672ed3f8809e9116c",
+      "output_sha256": "9519f21d2740a5672470a599f85bba4be76cd64a65df5cb1048d209bf20ed72d",
+      "module_migration": true,
+      "input_lines": 516,
+      "output_lines": 520
+    },
+    {
+      "path": "MHRankZ.lean",
+      "input_sha256": "58e7f1c885c8c3a8692aaae0a5eedf7da30fbc6c0a7162617456a8c5f13fe01b",
+      "output_sha256": "b0d4eff49f62e26bff4300545ee4f38ca149175d03aa1a41ef81a84bd3dd5510",
+      "module_migration": true,
+      "input_lines": 815,
+      "output_lines": 819
+    },
+    {
+      "path": "MHRec.lean",
+      "input_sha256": "ca74fdee4d87cdf48e644032bdb23e2894578ca9c4e3b77a274a410f0e92614f",
+      "output_sha256": "45547e5f5eb103718895c27890aabb4aa63a33bf990d070a681c1ee816c1edf1",
+      "module_migration": true,
+      "input_lines": 529,
+      "output_lines": 533
+    },
+    {
+      "path": "MHSep.lean",
+      "input_sha256": "f35d3a15005937a04970ade317b75bb407619c72f842349924acb607a15f7169",
+      "output_sha256": "60ab4afe8d107f66d1ac970d9824b6d93cec77475961a806cff8005f1ad69ec4",
+      "module_migration": true,
+      "input_lines": 842,
+      "output_lines": 846
+    },
+    {
+      "path": "MHSupply.lean",
+      "input_sha256": "2d8dd16fe19e59e67bb2e7ad6c400116d5d2798d7b2d27b11bb84282f0991ae6",
+      "output_sha256": "4e8c823a069cc4a2e38fe61d29d7439000f6a450f0ea25120a22259acd0978b0",
+      "module_migration": true,
+      "input_lines": 131,
+      "output_lines": 135
+    },
+    {
+      "path": "MHTheory.lean",
+      "input_sha256": "2da983cba1c9f03e4b89700d950d7cced47e923a1eb0639975275c1e6a547bcd",
+      "output_sha256": "b81796b80089a89acc75097d1c601d7dea459372aae0a4ffab4537bb13577f03",
+      "module_migration": true,
+      "input_lines": 204,
+      "output_lines": 208
+    },
+    {
+      "path": "MInterpretsTST.lean",
+      "input_sha256": "1646195b98cdb8c424a5fbd0a311e34995262ce3d34d7b683e9febf6691f711c",
+      "output_sha256": "bc4b2beaf7f74e53369178f4b1da89ac5dca3d7ada8b6ffd737787f14b15d35d",
+      "module_migration": true,
+      "input_lines": 484,
+      "output_lines": 488
+    },
+    {
+      "path": "MacChoiceAll.lean",
+      "input_sha256": "0303a5dffde4fc30e36aa31a7794b016cf446f2cb67ef5cb16c2692fe2368455",
+      "output_sha256": "cb36b39d752db3e162e6d5405a982c8e6405e178c97a78aee125c4e81dfdd4b5",
+      "module_migration": true,
+      "input_lines": 43,
+      "output_lines": 47
+    },
+    {
+      "path": "MacModel.lean",
+      "input_sha256": "13000b2be17074fbb1752b6d6204446d4f4b85ecfb1700d4958663a9e62ec7ec",
+      "output_sha256": "5c68c8446d9aafc2a7889ae1a1f4d1b29288d328ddae5de5032c55b02b281fb0",
+      "module_migration": true,
+      "input_lines": 358,
+      "output_lines": 362
+    },
+    {
+      "path": "MacNFU.lean",
+      "input_sha256": "d5fbdbbefe0620455e5dc0b4788f50bcf4c16e12da9fc1d7adbdb803803ec826",
+      "output_sha256": "e024014442c5396da8511f49d126d7bd8d12c5ae4f4c023ee6fee836290de3e7",
+      "module_migration": true,
+      "input_lines": 94,
+      "output_lines": 98
+    },
+    {
+      "path": "MacTheories.lean",
+      "input_sha256": "8b132169df658b753b101e9b5dd0813d6b6b7a6929279639ecf85e71a8e7e469",
+      "output_sha256": "2c5f435456d0b1f5e058503da3ab85881454f8480301b4accb71244792d85ef7",
+      "module_migration": true,
+      "input_lines": 96,
+      "output_lines": 100
+    },
+    {
+      "path": "MutualInterpretability.lean",
+      "input_sha256": "153f4a0913ecc0f7b6e87dcb15a0b8c352105a1ffb15fdd92a4260e16337cdaa",
+      "output_sha256": "7df4d4089e035c7940877663b7701ff46c353c6f622eab434ec9c959a7bdbb1c",
+      "module_migration": true,
+      "input_lines": 39,
+      "output_lines": 43
+    },
+    {
+      "path": "NFChoiceForms.lean",
+      "input_sha256": "c4b259dfeee4b2e3439dee85f0a08c2a4ba3fbf8475a00bcba5afb868be203f2",
+      "output_sha256": "2838f9b1cc3b35a3bc2a84e9d70de8801fada3b2a99c91782f51f049ed3218e9",
+      "module_migration": true,
+      "input_lines": 152,
+      "output_lines": 156
+    },
+    {
+      "path": "NFConsistentViaNFU.lean",
+      "input_sha256": "8a41b58b935207c9e7ff08d5bee4238ce2f677cc3a5a209f2581670d340e7554",
+      "output_sha256": "1f2dfc27eb96af5caafa46d57363525592ed093c851619371bef9202984a721e",
+      "module_migration": true,
+      "input_lines": 20,
+      "output_lines": 24
+    },
+    {
+      "path": "NFFn.lean",
+      "input_sha256": "32caeb057466c11c9fb67aa8ea6ff52a579fa65ec2ee7635ea32242ff4a97f15",
+      "output_sha256": "613f1bd2fc9a3f5973b2e7c9fba56995847192daa8adbaf95a20346a02ca5992",
+      "module_migration": true,
+      "input_lines": 460,
+      "output_lines": 464
+    },
+    {
+      "path": "NFInterpretations.lean",
+      "input_sha256": "1fd881e32991e4659c8d9b0ac30e3a6ec67573e4629b98541167be1fe4def005",
+      "output_sha256": "cc5884be81bf1dacba7b4f822e9b4a8f094fef1146b5ba2c3b0e79f80b20aaab",
+      "module_migration": true,
+      "input_lines": 1196,
+      "output_lines": 1200
+    },
+    {
+      "path": "NFInterpretsComb.lean",
+      "input_sha256": "2a8b584b2f36988995e52921c35a28e6cedb2f238a63e936106cb0ae22bd39d2",
+      "output_sha256": "527e2f0900738dffc209f55a02dd20defaa54293244bc4c6f8c64ffb7642baad",
+      "module_migration": true,
+      "input_lines": 434,
+      "output_lines": 438
+    },
+    {
+      "path": "NFInterpretsFn.lean",
+      "input_sha256": "445a01ff4c6ecd981bc6bf914ef7ffb4c1934de589bb02ca99c2124eb74b2555",
+      "output_sha256": "75fede66f023bb149afc478bf58d3770fadc17a620705a6a9a72bac6d980461c",
+      "module_migration": true,
+      "input_lines": 487,
+      "output_lines": 491
+    },
+    {
+      "path": "NFInterpretsFnCount.lean",
+      "input_sha256": "1ab334ee48c8db1ebcd8f673863b4c77294ce5e854ddc7f02ad070d5dc301b12",
+      "output_sha256": "b7c33621fdfde80d1fef3febfdaaf4ae654ccb332a6275c5addc74eb76f8d6e4",
+      "module_migration": true,
+      "input_lines": 199,
+      "output_lines": 203
+    },
+    {
+      "path": "NFInterpretsMH.lean",
+      "input_sha256": "d2033b18bf6e5a9eac2fe941ab239c7d2ffa08db8648e839b5468b712125f970",
+      "output_sha256": "29c42da221d961090170c16307e941c731bd840588c00db812bdaddc23c7076a",
+      "module_migration": true,
+      "input_lines": 471,
+      "output_lines": 475
+    },
+    {
+      "path": "NFInterpretsMac.lean",
+      "input_sha256": "d8d800e9a967960a8a1be2a4cfcdaaada00f32da9db64760035c67f8429d2730",
+      "output_sha256": "a670f77c4eeb89be4638e0e0b8f1bbae183a90873ca9bca7ef69487f31458ba4",
+      "module_migration": true,
+      "input_lines": 576,
+      "output_lines": 580
+    },
+    {
+      "path": "NFMac.lean",
+      "input_sha256": "72aca5bc94f4fe706133a553baa776e5fcc04886e9a721074768303f8fb94bec",
+      "output_sha256": "b698dff5285a7affc609bfa995f0b2aa843d7163d1bae9f53c836213520526af",
+      "module_migration": true,
+      "input_lines": 505,
+      "output_lines": 509
+    },
+    {
+      "path": "NFRel.lean",
+      "input_sha256": "d1cc03caba999699d4168b5d9a768d49ea6bb78670aa06bbafa936d22f5e9bdd",
+      "output_sha256": "999706f53c23601dff552cd064056a6bbc52d1213a5bf606f9b438cdf45dd591",
+      "module_migration": true,
+      "input_lines": 420,
+      "output_lines": 424
+    },
+    {
+      "path": "NFSpecker.lean",
+      "input_sha256": "8c289dc20b46b437338fbee4e8c3c115ba4ae448934e7b8e9dcf68e47c65ee9f",
+      "output_sha256": "0f7fdcf48c8b681120eeddc329b1b4c9b45fe599a2c7754a35eca797a19d74f0",
+      "module_migration": true,
+      "input_lines": 1873,
+      "output_lines": 1877
+    },
+    {
+      "path": "NFStrat.lean",
+      "input_sha256": "0b56b952f5593b94ed6d579cfdd00d1cb26975fa791a10f96f36a24404dde3e8",
+      "output_sha256": "6b030b615f3e72c93434363be54b0f35f44791b451fa5d28931f8859797b4513",
+      "module_migration": true,
+      "input_lines": 250,
+      "output_lines": 254
+    },
+    {
+      "path": "NFTheories.lean",
+      "input_sha256": "0e5c335e120cfd0cb3dd34148a134bf36d31cc39706e02c05f830741ef59472d",
+      "output_sha256": "fdc6c8bd3e3113d2908116396752e4d01116c37a42c4acfec9b70260f9abdfe9",
+      "module_migration": true,
+      "input_lines": 315,
+      "output_lines": 319
+    },
+    {
+      "path": "NFUAleph.lean",
+      "input_sha256": "522192dff1b358218432583c87fea1737bb4f5ec1a37c97c3064d57171c8ef0e",
+      "output_sha256": "0a586bf2ccf51947126a3b44783ce856654b0e47260f328a8219c5c15f3c6ab5",
+      "module_migration": true,
+      "input_lines": 600,
+      "output_lines": 604
+    },
+    {
+      "path": "NFUBF.lean",
+      "input_sha256": "860de4f7d70a11bdb5f6655c204956759db578ed9676b2bd8894c4a1d32c524d",
+      "output_sha256": "f5b3f6ddb53c087ee12c46a79febc3fb1e4dc8460442a6d2657af52a8e793d43",
+      "module_migration": true,
+      "input_lines": 427,
+      "output_lines": 431
+    },
+    {
+      "path": "NFUConsistent.lean",
+      "input_sha256": "a01b1b29c34723d8d6f224cbe2add2604fac0ec7efa14ceffb923af40d19cb09",
+      "output_sha256": "9738fa313c4e56ecf3452a81104bd3bba5195af21f0f9626cd274df5189b90a0",
+      "module_migration": true,
+      "input_lines": 229,
+      "output_lines": 233
+    },
+    {
+      "path": "NFUCountInterp.lean",
+      "input_sha256": "df4951c5dfa137f100073b6c856a333f1d6dfe266c3d203e60d629d98cd10c55",
+      "output_sha256": "b0bf54a07559699046acd21af2b76d4c63d302d7653222b8cde343cdf937ed2c",
+      "module_migration": true,
+      "input_lines": 443,
+      "output_lines": 447
+    },
+    {
+      "path": "NFUCountLev.lean",
+      "input_sha256": "8dec4fb840c448505ecadbeb9168e7975d0cb52220dba276de67b783e2191300",
+      "output_sha256": "740a3e27d23c7fde2c7edf358019ef68e4f090d3d1be4e71025251625d3b6b22",
+      "module_migration": true,
+      "input_lines": 394,
+      "output_lines": 398
+    },
+    {
+      "path": "NFUCountMH.lean",
+      "input_sha256": "14b69fc7a2a44995f446d7db8a802d89c2a57edd652e355149d9c57c03a6ff30",
+      "output_sha256": "c777853f0becca5d8301ef040170a2dfd53317bf25ccc0e13ef76e2f7dfd922a",
+      "module_migration": true,
+      "input_lines": 247,
+      "output_lines": 251
+    },
+    {
+      "path": "NFUCountZ.lean",
+      "input_sha256": "252ca6e658401fc411c0acf1300597bb307b64703458125b515e5f8eae74c712",
+      "output_sha256": "9b818f8b4f1f793ea1676377acae2bce9f1f4ec25aa08ce3364bed55357096dc",
+      "module_migration": true,
+      "input_lines": 293,
+      "output_lines": 297
+    },
+    {
+      "path": "NFUDirectMH.lean",
+      "input_sha256": "169c02093c934ecc69dc8c7fec06fe7f4dc0038fa9dc13295f780118f5a8b52e",
+      "output_sha256": "fce02a903e81261cd0a85de5e7599fd331b6f9ccc1b0a5be2e503b98a558965c",
+      "module_migration": true,
+      "input_lines": 610,
+      "output_lines": 614
+    },
+    {
+      "path": "NFUFix.lean",
+      "input_sha256": "045e7e8982c9030f4f169eb96ab8c93220f5cd2be2ebc773f5e7ca099ba93671",
+      "output_sha256": "e082c0ad867e56b0b5ff08e5fd014852ac28da860f7e7d5c9375ed0c5645072a",
+      "module_migration": true,
+      "input_lines": 249,
+      "output_lines": 253
+    },
+    {
+      "path": "NFUInternal.lean",
+      "input_sha256": "ac1dab9678659d8347407d0480dd1debde0005de416215c82436a791bee1954d",
+      "output_sha256": "0e823893b240f5321b3098ebc4402b07f87ac1ab785531f37c3762523fb0f29f",
+      "module_migration": true,
+      "input_lines": 467,
+      "output_lines": 471
+    },
+    {
+      "path": "NFUInterpretsAleph.lean",
+      "input_sha256": "e670c59dd8a93e0a52568c21f5ea1dc58d2fe586c02ebdfca458ea778f218373",
+      "output_sha256": "0daba501fb3e5f233e7278829a02d93dce4d5e12afcabc3e047ce4e76ca31b1c",
+      "module_migration": true,
+      "input_lines": 319,
+      "output_lines": 323
+    },
+    {
+      "path": "NFUInterpretsNF.lean",
+      "input_sha256": "78ba04377ff825219775cfe2495e2a2e8b87db3efe9d4cfccdf3aacf66c077d1",
+      "output_sha256": "1b88a5b6709fbeecd3291a7884de6b070b49536b8a42975ea515b85a6cab025f",
+      "module_migration": true,
+      "input_lines": 1799,
+      "output_lines": 1803
+    },
+    {
+      "path": "NFUInterpretsNFEq.lean",
+      "input_sha256": "b6996579323ef67dfc88c58cd2dc187f85002c53112031e6b225289770205e4c",
+      "output_sha256": "918ff30fdd74dbd3776e0675ea95c0f47730422931b19ca21acde4062b2a545d",
+      "module_migration": true,
+      "input_lines": 262,
+      "output_lines": 266
+    },
+    {
+      "path": "NFUInterpretsZ.lean",
+      "input_sha256": "8551c43bee7d895b1bb859aeefe82e9a7d5b4b23ab5b371f168e03b9ae331a84",
+      "output_sha256": "ef7240ebed922b772275c9bfb7e5e9bf092f3dc194b7ad3ec28c7813db7164cc",
+      "module_migration": true,
+      "input_lines": 169,
+      "output_lines": 173
+    },
+    {
+      "path": "NFUJensen.lean",
+      "input_sha256": "a76f9dc41f2b34172b1ea054f40f70a068b8cbea9c6e0481e8183b9f8e262b48",
+      "output_sha256": "be566f383f6bf43eeb558e76b02c5e50ff1faf203c40a11b6b1d6a2321e99865",
+      "module_migration": true,
+      "input_lines": 734,
+      "output_lines": 738
+    },
+    {
+      "path": "NFUJensenModel.lean",
+      "input_sha256": "cb86eefc088cfd674b97ef759cda7201a9397c4db404fd86646216d4fa37643e",
+      "output_sha256": "23af776aec47ed6d34a07523e8745dedab8058e5c2aab4faf31b790ca8c18193",
+      "module_migration": true,
+      "input_lines": 673,
+      "output_lines": 677
+    },
+    {
+      "path": "NFULevels.lean",
+      "input_sha256": "817797a0b4b005984e64bdcfc09fbd459fc94eb94071ca1a6121476b0f3f4849",
+      "output_sha256": "d6458d217ba6dca973d0cb64e878318fbd69af82ade0ea2717e57b71eac65849",
+      "module_migration": true,
+      "input_lines": 305,
+      "output_lines": 309
+    },
+    {
+      "path": "NFUNat.lean",
+      "input_sha256": "17f8dc608d66609bcefa7ed3d65565a12928c889147a618bf9a6a0d38c0e83fe",
+      "output_sha256": "da6ab0c4ef70f8db00d8447f5a8a721b8e870a4d3e0dc13e6ec79f1c6726a3a4",
+      "module_migration": true,
+      "input_lines": 239,
+      "output_lines": 243
+    },
+    {
+      "path": "NFUOrd.lean",
+      "input_sha256": "de14bbc520d502d2c3698087b912b89f1a95dde5fb40cc705c863c634c80f628",
+      "output_sha256": "cf9031aa4e99a04fbcdeb11d531c113a46ca4fdfe7324660e1db4296791a8ab0",
+      "module_migration": true,
+      "input_lines": 425,
+      "output_lines": 429
+    },
+    {
+      "path": "NFURank.lean",
+      "input_sha256": "250ec38399fb6faa63a4ab7ecfe0935bcc3e1783009574ac8cd6a498cf17b8a6",
+      "output_sha256": "80b1c9d89c02ece18d9f24135bd796832bdfebc2b5b70eeaebc9eca22c6da37b",
+      "module_migration": true,
+      "input_lines": 245,
+      "output_lines": 249
+    },
+    {
+      "path": "NFURel.lean",
+      "input_sha256": "628d30f205556cc8e743420b412e5171c4f79dd6d3cf1fa8efecd614bf208e30",
+      "output_sha256": "9f00940d0998ce83e8999a9c808ea826c0164196b5fa369513ed7e870dd0e169",
+      "module_migration": true,
+      "input_lines": 301,
+      "output_lines": 305
+    },
+    {
+      "path": "NFUShift.lean",
+      "input_sha256": "6dd302e395e861e8d395e1426de5a7678e28861c683692251e667fe1966ec2c7",
+      "output_sha256": "eae114e7f0b00522331364621a20a814c73cd9df61418459ac74cdea3c938406",
+      "module_migration": true,
+      "input_lines": 393,
+      "output_lines": 397
+    },
+    {
+      "path": "NFUStrat.lean",
+      "input_sha256": "d514c9bb53e515cc66b782bc46e4fb64d9ae1b131aa08aff8ca534a80596f0c1",
+      "output_sha256": "ef6121321c8c60fde59a9f29721ff071544d56e730ec66023456709ae5450062",
+      "module_migration": true,
+      "input_lines": 88,
+      "output_lines": 92
+    },
+    {
+      "path": "NFUSupply.lean",
+      "input_sha256": "6cf61ed164c0a8e9950bde67e479376ae2b1bf9b9507d086d9920dab444dac60",
+      "output_sha256": "3dd48e6d8d7442d42b195af04d6fe3591dba9bc6efecda7c7114e5619018fac1",
+      "module_migration": true,
+      "input_lines": 659,
+      "output_lines": 663
+    },
+    {
+      "path": "NFUTerm.lean",
+      "input_sha256": "ae604d720ac008136bd9aaffafb54e69268e5acb9421c7aa908ee4cdfc745493",
+      "output_sha256": "484bc93ab3ec86bc261ffcf7d66701a28f53858727edccd3a541bcaa3d1f14da",
+      "module_migration": true,
+      "input_lines": 3622,
+      "output_lines": 3626
+    },
+    {
+      "path": "OrbitCounting.lean",
+      "input_sha256": "575f961daa7392b9fe4a0385dd8c85efa2697f86576eda1c14bc2c0f1b483b7b",
+      "output_sha256": "7ce091a1e8d31e833fa849ca7e71de8734c3f303ec212fb8b3abe763306ed2ed",
+      "module_migration": true,
+      "input_lines": 68,
+      "output_lines": 72
+    },
+    {
+      "path": "RankConsistency.lean",
+      "input_sha256": "c737a4eec86fd48e93586cd0ecb4e9df7b4e5c449f885c32bf574e329a144270",
+      "output_sha256": "7853490751adf3c8683c12d9512982e4ae6108f5189b032cf08c2385bab862bf",
+      "module_migration": true,
+      "input_lines": 163,
+      "output_lines": 167
+    },
+    {
+      "path": "TFmExtra.lean",
+      "input_sha256": "8c044f360f922ec9d1c33d3d2451072e6e9f8822cedfed8d9369cb98a49c354a",
+      "output_sha256": "2cdfd2ec0fadb0d3ed6952dde6421a4c039179e537bfdb0e262f97a53de47d9e",
+      "module_migration": true,
+      "input_lines": 192,
+      "output_lines": 196
+    },
+    {
+      "path": "TSTJensen.lean",
+      "input_sha256": "c147a3915646990b042e39e0eaf7f45ba7c64a5e9b0e9f3b453205e780172794",
+      "output_sha256": "fc1b211abfd7520b2e007600aaf60f3d860b8e4b5da667ab3da09c1fff06ce67",
+      "module_migration": true,
+      "input_lines": 507,
+      "output_lines": 511
+    },
+    {
+      "path": "TSTTheories.lean",
+      "input_sha256": "6387c945fce7e05f44a9240914ec6134ace799c41895ebd145a17af3ca2d1b30",
+      "output_sha256": "15ce6e83f555363a25c0891f4c284d4e6f2277463e218e4fdbd24ccb2cd4df4d",
+      "module_migration": true,
+      "input_lines": 335,
+      "output_lines": 339
+    },
+    {
+      "path": "TermAlg.lean",
+      "input_sha256": "25608d8a54b9fdd6b15e7e9a698674f94037d279130ed49fcc81b0130e465943",
+      "output_sha256": "5b9a4d9ea3057edc271aedb60f4a3ad33c2b636003530b97b86dfc3ec6ecc0bc",
+      "module_migration": true,
+      "input_lines": 383,
+      "output_lines": 387
+    },
+    {
+      "path": "TranslationCongr.lean",
+      "input_sha256": "a6467a6bc4dd1930b32545a31ef08302158ab715afce506582b0b01299f71bc1",
+      "output_sha256": "a5b703fbc40b928fdf55fbec8b8b5bebd7bafc0b34bcd86c4b8982942027acfa",
+      "module_migration": true,
+      "input_lines": 50,
+      "output_lines": 54
+    },
+    {
+      "path": "ZermeloTC.lean",
+      "input_sha256": "6996e0ccffb8b50dca8f0db4a17230ab84354de67bccf640a39498a69512693e",
+      "output_sha256": "62902fb4a631a5eb51e841e94b20264b1cb2f67818256c046c48660578404706",
+      "module_migration": true,
+      "input_lines": 489,
+      "output_lines": 493
+    }
+  ]
+}
