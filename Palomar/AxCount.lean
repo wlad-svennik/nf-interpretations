@@ -171,6 +171,11 @@ theorem nfuic_interprets_nfc :
   intro V memV hne hU hI hC
   letI : Nonempty V := hne
   letI : SetStructure V := ⟨fun y x => memV x y⟩
+  have hmem (a b : V) : a ∈ b ↔ memV a b := Iff.rfl
+  have hrel : (fun a b : V ↦
+      Tarski.Structure.rel (L := ℒₛₑₜ) Language.Mem.mem ![a, b]) = memV := by
+    funext a b
+    exact propext ((Tarski.Structure.mem_lang (L := ℒₛₑₜ) (v := ![a, b])).trans (hmem a b))
   have hUI : V↓[ℒₛₑₜ] ⊧* 𝗡𝗙𝗨𝗜 := Jensen.models_nfui_of_isNFU hU hI
   have hUIC : V↓[ℒₛₑₜ] ⊧* 𝗡𝗙𝗨𝗜𝗖 := models_theory_iff.mpr fun φ hφ => by
     rcases hφ with hφ | hφ
@@ -183,14 +188,16 @@ theorem nfuic_interprets_nfc :
   · intro x
     have he : JensenNFU.TFm.Sat memV (Adapter.toTFm HinU.nfcDomF) [x] ↔
         V ⊧/![x] HinU.nfcDomF := by
-      simpa only [List.ofFn_succ, List.ofFn_zero] using
-        (Adapter.eval_toTFm (N := V) HinU.nfcDomF ![x])
+      have h := Adapter.eval_toTFm (N := V) HinU.nfcDomF ![x]
+      rw [hrel] at h
+      simpa [List.ofFn_succ] using h
     exact he.trans (hd x)
   · intro a b
     have he : JensenNFU.TFm.Sat memV (Adapter.toTFm HinU.nfcMemF) [f a, f b] ↔
         V ⊧/![f a, f b] HinU.nfcMemF := by
-      simpa only [List.ofFn_succ, List.ofFn_zero] using
-        (Adapter.eval_toTFm (N := V) HinU.nfcMemF ![f a, f b])
+      have h := Adapter.eval_toTFm (N := V) HinU.nfcMemF ![f a, f b]
+      rw [hrel] at h
+      simpa [List.ofFn_succ] using h
     exact he.trans (hm a b)
 
 /-- The reverse direction retains the universe and membership unchanged. -/
@@ -204,6 +211,7 @@ theorem nfc_interprets_nfuic (V : Type) (memV : V → V → Prop)
   have hi : V↓[ℒₛₑₜ] ⊧ Axiom.universeInfinite :=
     models_of_provable hT nf_provable_universeInfinite
   refine ⟨Adapter.isNFU_of_isNF hNF, ?_, hC⟩
-  simpa [models_iff, Axiom.universeInfinite, JensenNFU.UnivInfinite] using hi
+  have hmem (a b : V) : a ∈ b ↔ memV a b := Iff.rfl
+  simpa [models_iff, Axiom.universeInfinite, JensenNFU.UnivInfinite, hmem] using hi
 
 end Palomar

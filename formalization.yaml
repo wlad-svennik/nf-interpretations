@@ -110,13 +110,15 @@ fidelity:
     statement correspondence is documented alongside the compared declarations.
 
 review:
-  status: "agent-reviewed; mechanical verification pending"
+  status: "agent-reviewed"
   notes: >-
     Agents checked source provenance, the definition closure, module/file limits,
     and the correspondence of the selected statements to the supplied source.
     This does not assert independent human mathematical peer review. Fresh
     compilation and the complete Palomar mechanical preflight are required for
-    the final submitted commit.
+    the final submitted commit. The mechanical status of each immutable snapshot
+    is recorded by its Palomar workflow report, separately from this source-level
+    account of mathematical review.
 
 alignment:
   namespace: "ConNF.NF; NFUCut; JensenNFU; Palomar"
