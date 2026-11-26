@@ -1,6 +1,6 @@
 module
 
-public import Mathlib.Tactic
+public import Mathlib.Data.List.Basic
 
 /-!
 # NF and NF + AxCount: models and uniform mutual interpretations

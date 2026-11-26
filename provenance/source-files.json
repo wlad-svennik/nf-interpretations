@@ -1054,10 +1054,11 @@
     {
       "path": "NFUJensenModel.lean",
       "input_sha256": "cb86eefc088cfd674b97ef759cda7201a9397c4db404fd86646216d4fa37643e",
-      "output_sha256": "23af776aec47ed6d34a07523e8745dedab8058e5c2aab4faf31b790ca8c18193",
+      "output_sha256": "787a263dfbb51166f48417957d09817277a8f96f76cc2fcc2a6773556e4724aa",
       "module_migration": true,
       "input_lines": 673,
-      "output_lines": 677
+      "output_lines": 677,
+      "import_change": "Mathlib aggregate import narrowed to Mathlib.Tactic; Generic imports the filter and set dependencies."
     },
     {
       "path": "NFULevels.lean",

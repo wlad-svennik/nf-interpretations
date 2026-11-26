@@ -1,6 +1,6 @@
 module
 
-public import Mathlib
+public import Mathlib.Tactic
 public import ConNF.NF.Generic
 
 @[expose] public section
